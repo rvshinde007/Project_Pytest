@@ -41,6 +41,7 @@ class Test_py02:
         else:
             print("Mobile number is not present")
             assert False
+        driver.close()
         driver.quit()
 #===================================================================================
 import time
@@ -88,3 +89,4 @@ class Test_py02:
             print("Mobile number is not present")
             assert False
         driver.close()
+        driver.quit()
