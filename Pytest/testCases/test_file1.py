@@ -95,6 +95,7 @@ class Test_py:
         else:
             print("Your are at wrong site")
             assert False
+        driver.close()
         driver.quit()
 
     def test_sum_004(self):
@@ -106,6 +107,7 @@ class Test_py:
             assert True
         else:
             assert False
+
 
 
 # # To run test cases parallel -->   -n=2
